@@ -1,0 +1,52 @@
+html,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.container{
+  box-shadow: 0 0 4px;
+  min-height: 50%;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inp-div{
+  padding: 7px;
+  border-radius:10px ;
+}
+
+input{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border: 2px solid rgba(128, 128, 128, 0.297);
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn button {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.btn button:hover{
+  background-color: rgb(221, 221, 221);
+}
