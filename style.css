@@ -32,6 +32,10 @@ input{
   border-radius: 10px;
 }
 
+input:focus{
+  outline: none;
+}
+
 .btn{
   display: flex;
   justify-content: space-around;
