@@ -23,4 +23,4 @@ function finalResult(){
 
 function backSpace(){
   inp.value = inp.value.slice( 0 , -1 );
-}
+};
